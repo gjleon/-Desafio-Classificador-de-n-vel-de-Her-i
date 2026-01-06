@@ -7,9 +7,9 @@ public class Main {
         String nivel;
         int xp;
 
-        System.out.println("Digite seu o nome do heroi: ");
+        System.out.println("Digite o nome do Herói: ");
         nome = scanner.nextLine();
-        System.out.println("Digite a xp do heroi: ");
+        System.out.println("Digite a xp do Herói: ");
         xp = scanner.nextInt();
 
         if (xp <= 1000) {
